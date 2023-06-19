@@ -36,8 +36,49 @@ print(x)
 z = [10, 20, [19, 20, 24], 33]
 print(z[2])
 
-#basic function declaration
+#basic function declaration  
 def my_function(x):
     a = x + 5
     return a
 print (my_function(10))
+
+#if else statement
+if(pi > 10):
+    print("pi is greater")
+else:
+    print("10 is greater")
+
+floatNumber = 10 + 10J
+print(floatNumber)
+
+
+#conditional Statement Checking instance
+i = 10
+if isinstance(i, int):
+    i += 10
+elif isinstance(i, str):
+    i += 20
+print(i)
+
+#Collections 
+array = ['Apple', 'Orange', 'Banana', 'Coconut']
+array.append(['Nahad', 2])
+array.insert(2, 'Foyaz')
+array.remove('Orange')
+print(array)
+
+#reverse
+listOfAnimal = ['Tiger', 'Lion', 'Hen', 'Elephent']
+listOfNumber = [2, 5, 8]
+listOfAnimal.reverse()
+#or
+listOfNumber[::-1]
+#remove last element
+listOfNumber.pop()
+print(listOfAnimal)
+print(listOfNumber)
+
+#iteration
+for element in listOfAnimal:
+    print(element)
+
