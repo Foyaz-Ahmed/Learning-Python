@@ -82,3 +82,6 @@ print(listOfNumber)
 for element in listOfAnimal:
     print(element)
 
+#tuple
+ip_address= ("100.10.10.101", 8080)
+print (ip_address)
